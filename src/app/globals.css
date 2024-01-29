@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+body {
+  height: 100vh;
+}
