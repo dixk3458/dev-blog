@@ -1,5 +1,9 @@
-import Image from 'next/image';
+import UserCard from '@/components/UserCard';
 
 export default function HomePage() {
-  return <section>Main</section>;
+  return (
+    <section>
+      <UserCard />
+    </section>
+  );
 }
