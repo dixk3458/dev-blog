@@ -1,21 +1,34 @@
-import { getAllPosts } from '@/service/posts';
+'use client';
 
-export default async function FilterablePosts() {
-  const posts = await getAllPosts();
+import { Post } from '@/service/posts';
+import { useState } from 'react';
+import Categories from './Categories';
+import PostLists from './PostLists';
 
-  const categories = [...new Set(posts.map(post => post.category))];
+type Props = {
+  posts: Post[];
+  categories: string[];
+};
+
+const ALL = 'ALL';
+
+export default function FilterablePosts({ posts, categories }: Props) {
+  const [selected, setSelected] = useState(ALL);
+  const filtered =
+    selected === ALL ? posts : posts.filter(post => post.category === selected);
+
+  const handleClick = (selected: string) => {
+    setSelected(selected);
+  };
+
   return (
     <section>
-      <ul>
-        {categories.map((category, index) => {
-          return <li key={index}>{category}</li>;
-        })}
-      </ul>
-      <ul>
-        {posts.map(post => {
-          return <li key={post.path}>{post.title}</li>;
-        })}
-      </ul>
+      <Categories
+        categories={categories}
+        selected={selected}
+        onClick={handleClick}
+      />
+      <PostLists posts={filtered} />
     </section>
   );
 }

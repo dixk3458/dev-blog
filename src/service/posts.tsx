@@ -1,7 +1,7 @@
 import { readFile } from 'fs/promises';
 import path from 'path';
 
-type Post = {
+export type Post = {
   title: string;
   description: string;
   date: string;
