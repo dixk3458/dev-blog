@@ -10,7 +10,7 @@ type Props = {
   categories: string[];
 };
 
-const ALL = 'ALL';
+const ALL = 'All';
 
 export default function FilterablePosts({ posts, categories }: Props) {
   const [selected, setSelected] = useState(ALL);
@@ -24,7 +24,7 @@ export default function FilterablePosts({ posts, categories }: Props) {
   return (
     <section>
       <Categories
-        categories={categories}
+        categories={[ALL, ...categories]}
         selected={selected}
         onClick={handleClick}
       />
