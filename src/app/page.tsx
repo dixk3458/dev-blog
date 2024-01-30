@@ -2,7 +2,7 @@ import UserCard from '@/components/UserCard';
 
 export default function HomePage() {
   return (
-    <section>
+    <section className="flex flex-col w-full max-w-screen-md mx-auto p-4">
       <UserCard />
     </section>
   );
