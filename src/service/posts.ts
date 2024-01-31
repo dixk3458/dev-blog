@@ -10,7 +10,11 @@ export type Post = {
   bookmarked: boolean;
 };
 
-export type PostData = Post & { content: string };
+export type PostData = Post & {
+  content: string;
+  prev: Post | null;
+  next: Post | null;
+};
 
 export async function getAllPosts(): Promise<Post[]> {
   // 모든 Posts를 읽어서 Post 배열을 반환해준다.
@@ -34,17 +38,22 @@ export async function getPostData(
     subdivision ?? '',
     `${fileName}.md`
   );
-  console.log('fileasdfasdfasd,', filePath);
 
-  const metadata = await getAllPosts().then(posts =>
-    posts.find(post => post.path === `${category}/${subdivision}/${fileName}`)
+  const posts = await getAllPosts();
+
+  const post = posts.find(
+    post => post.path === `${category}/${subdivision}/${fileName}`
   );
 
-  if (!metadata) {
+  if (!post) {
     throw new Error(`No corresponding post were found.`);
   }
 
+  const index = posts.indexOf(post);
+  const next = index > 0 ? posts[index - 1] : null;
+  const prev = index < posts.length - 1 ? posts[index + 1] : null;
+
   const content = await readFile(filePath, 'utf-8');
 
-  return { ...metadata, content };
+  return { ...post, content, prev, next };
 }
