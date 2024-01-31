@@ -17,7 +17,7 @@ export default function PostLists({ posts }: Props) {
                 key={path}
                 className="my-8 py-4 px-2 rounded-lg hover:bg-indigo-100 duration-300"
               >
-                <Link href={path}>
+                <Link href={`/post/${path}`}>
                   <p className="text-base text-indigo-700 font-bold  md:text-lg lg:text-xl">
                     {title}
                   </p>

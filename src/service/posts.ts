@@ -26,24 +26,12 @@ export async function getAllPosts(): Promise<Post[]> {
     .then(posts => posts.sort((a, b) => (a.date > b.date ? -1 : 1)));
 }
 
-export async function getPostData(
-  category: string,
-  fileName: string,
-  subdivision?: string
-): Promise<PostData> {
-  const filePath = path.join(
-    process.cwd(),
-    'data',
-    category,
-    subdivision ?? '',
-    `${fileName}.md`
-  );
+export async function getPostData(slugPath: string): Promise<PostData> {
+  const filePath = path.join(process.cwd(), 'data', `${slugPath}.md`);
 
   const posts = await getAllPosts();
 
-  const post = posts.find(
-    post => post.path === `${category}/${subdivision}/${fileName}`
-  );
+  const post = posts.find(post => post.path === slugPath);
 
   if (!post) {
     throw new Error(`No corresponding post were found.`);

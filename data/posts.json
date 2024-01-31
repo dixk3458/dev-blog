@@ -264,6 +264,22 @@
     "bookmarked": false
   },
   {
+    "title": "배열 상태 관리",
+    "description": "React의 배열상태를 관리하는 방법",
+    "date": "2023-09-02",
+    "category": "React",
+    "path": "react/managing-array-status",
+    "bookmarked": false
+  },
+  {
+    "title": "Reduce 사용방법",
+    "description": "Reducer를 이용한 로직분리",
+    "date": "2023-09-02",
+    "category": "React",
+    "path": "react/reducer",
+    "bookmarked": true
+  },
+  {
     "title": "Javascript에서 호이스팅이란?",
     "description": "호이스팅의 개념설명과 예제",
     "date": "2024-01-30",
