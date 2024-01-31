@@ -1,12 +1,10 @@
 # 올바른 괄호
 
-### :star: 문제 추상화
+### ⭐ 문제 추상화
 
 - 입력 받은 괄호가 올바른 괄호라면 YES를 아니라면 NO를 출력하라
 
-<br>
-
-### :wrench: 알고리즘 설계
+### 🔧 알고리즘 설계
 
 - YES 또는 NO를 반환해야하기때문에, 변수 answer를 YES로 초기화하자.
 - 괄호를 검사할 자료구조 Stack을 구현하자.(배열)
@@ -15,9 +13,7 @@
 - 만약 Stack의 길이가 0일때 ) 라면 NO를 반환해준다.
 - 마지막에 Stack의 길이가 0이라면 YES를 반환한다. 아니라면 NO를 반환
 
-<br>
-
-### :hammer: 알고리즘 구현
+### 🔨 알고리즘 구현
 
 ```js
 function solution(str) {
@@ -49,8 +45,6 @@ console.log(solution(a));
 let b = '()';
 console.log(solution(b));
 ```
-
-<br>
 
 ### ✅ 검증 및 트러블 슈팅
 
