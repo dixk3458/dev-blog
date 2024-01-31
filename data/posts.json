@@ -262,5 +262,53 @@
     "category": "React",
     "path": "react/managing-object-status",
     "bookmarked": false
+  },
+  {
+    "title": "Javascript에서 호이스팅이란?",
+    "description": "호이스팅의 개념설명과 예제",
+    "date": "2024-01-30",
+    "category": "JavaScript",
+    "path": "javascript/hoisting",
+    "bookmarked": "true"
+  },
+  {
+    "title": "Javascript에서 클로저란?",
+    "description": "클로저의 개념설명과 예제",
+    "date": "2024-01-30",
+    "category": "JavaScript",
+    "path": "javascript/closure",
+    "bookmarked": "true"
+  },
+  {
+    "title": "선택 정렬",
+    "description": "알고리즘 문제풀이 (Sort)",
+    "date": "2024-01-31",
+    "category": "Algorithm",
+    "path": "algorithm/selection-sort",
+    "bookmarked": "true"
+  },
+  {
+    "title": "버블 정렬",
+    "description": "알고리즘 문제풀이 (Sort)",
+    "date": "2024-01-31",
+    "category": "Algorithm",
+    "path": "algorithm/bubble-sort",
+    "bookmarked": "true"
+  },
+  {
+    "title": "Special Sort(구글 인터뷰)",
+    "description": "알고리즘 문제풀이 (Sort)",
+    "date": "2024-01-31",
+    "category": "Algorithm",
+    "path": "algorithm/special-sort",
+    "bookmarked": "true"
+  },
+  {
+    "title": "삽입 정렬",
+    "description": "알고리즘 문제풀이 (Sort)",
+    "date": "2024-01-31",
+    "category": "Algorithm",
+    "path": "algorithm/insertion-sort",
+    "bookmarked": "true"
   }
 ]
