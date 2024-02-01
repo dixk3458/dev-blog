@@ -2,6 +2,7 @@
 
 import { ChangeEvent, FormEvent, useState } from 'react';
 import Banner, { BannerData } from './Banner';
+import sendContactEmail from '@/service/contact';
 
 type Form = {
   from: string;
@@ -9,12 +10,14 @@ type Form = {
   message: string;
 };
 
+const DEFAULT_DATA = {
+  from: '',
+  subject: '',
+  message: '',
+};
+
 export default function ContactForm() {
-  const [form, setForm] = useState<Form>({
-    from: '',
-    subject: '',
-    message: '',
-  });
+  const [form, setForm] = useState<Form>(DEFAULT_DATA);
 
   const [banner, setBanner] = useState<BannerData | null>(null);
 
@@ -27,14 +30,26 @@ export default function ContactForm() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setBanner({
-      message: '메일이 성공적으로 전송되었습니다.',
-      status: 'success',
-    });
 
-    // setTimeout(() => {
-    //   setBanner(null);
-    // }, 3000);
+    sendContactEmail(form)
+      .then(() => {
+        setBanner({
+          message: '메일이 성공적으로 전송되었습니다.',
+          status: 'success',
+        });
+        setForm(DEFAULT_DATA);
+      })
+      .catch(() => {
+        setBanner({
+          message: '메일이 전송에 실패했습니다.',
+          status: 'error',
+        });
+      })
+      .finally(() => {
+        setTimeout(() => {
+          setBanner(null);
+        }, 3000);
+      });
   };
   return (
     <section className="w-full max-w-screen-sm">
@@ -66,7 +81,7 @@ export default function ContactForm() {
           required
           onChange={e => handleChange(e)}
         />
-        <label htmlFor="subject" className="font-semibold">
+        <label htmlFor="message" className="font-semibold">
           Message
         </label>
         <textarea
@@ -75,6 +90,8 @@ export default function ContactForm() {
           cols={30}
           rows={10}
           required
+          value={form.message}
+          className="resize-none"
           onChange={e => handleChange(e)}
         />
         <button className="font-bold  bg-blue-400 p-2 rounded-md duration-200 hover:brightness-110">
