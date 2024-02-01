@@ -1,9 +1,10 @@
 'use client';
 
 import { Post } from '@/service/posts';
-import { useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import Categories from './Categories';
 import PostLists from './PostLists';
+import SearchBar from './SearchBar';
 
 type Props = {
   posts: Post[];
@@ -14,11 +15,25 @@ const ALL = 'All';
 
 export default function FilterablePosts({ posts, categories }: Props) {
   const [selected, setSelected] = useState(ALL);
+  const [text, setText] = useState('');
+
   const filtered =
-    selected === ALL ? posts : posts.filter(post => post.category === selected);
+    selected === ALL && !text
+      ? posts
+      : selected === ALL && text
+      ? posts.filter(post => post.title.includes(text.trim()))
+      : text
+      ? posts.filter(
+          post => post.category === selected && post.title.includes(text.trim())
+        )
+      : posts.filter(post => post.category === selected);
 
   const handleClick = (selected: string) => {
     setSelected(selected);
+  };
+
+  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setText(e.target.value);
   };
 
   return (
@@ -28,6 +43,7 @@ export default function FilterablePosts({ posts, categories }: Props) {
         selected={selected}
         onClick={handleClick}
       />
+      <SearchBar text={text} onChange={handleChange} filtered={filtered} />
       <PostLists posts={filtered} />
     </section>
   );
