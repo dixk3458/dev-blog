@@ -3,12 +3,12 @@ import { ChangeEvent } from 'react';
 import { CiSearch } from 'react-icons/ci';
 
 type Props = {
+  length: number;
   text: string;
-  onChange: (e:ChangeEvent<HTMLInputElement>) => void;
-  filtered: Post[];
+  onChange: (e: ChangeEvent<HTMLInputElement>) => void;
 };
 
-export default function SearchBar({ text, onChange, filtered }: Props) {
+export default function SearchBar({ length, text, onChange }: Props) {
   return (
     <div className="w-full flex flex-col mt-4">
       <div className="flex justify-between border-b border-indigo-100">
@@ -24,7 +24,7 @@ export default function SearchBar({ text, onChange, filtered }: Props) {
         </button>
       </div>
       <p className="self-end mt-4 text-xs font-semibold text-gray-400">
-        {`총 ${filtered.length}개의 게시글`}
+        {`총 ${length}개의 게시글`}
       </p>
     </div>
   );
