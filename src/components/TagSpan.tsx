@@ -3,10 +3,26 @@ type TagSize = 'small' | 'medium' | 'large';
 type Props = {
   category: string;
   size?: TagSize;
+  filter?: string;
+  onFilter?: (category: string) => void;
 };
 
-export default function TagSpan({ category, size = 'medium' }: Props) {
-  return <span className={getTagStyle(size)}>{category}</span>;
+export default function TagSpan({
+  category,
+  size = 'medium',
+  filter,
+  onFilter,
+}: Props) {
+  return (
+    <span
+      onClick={() => onFilter && onFilter(category)}
+      className={`${filter === category && 'border-indigo-300'} ${getTagStyle(
+        size
+      )}`}
+    >
+      {category}
+    </span>
+  );
 }
 
 function getTagStyle(size: TagSize): string {
