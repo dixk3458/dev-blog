@@ -21,6 +21,15 @@ export default function RootLayout({
 }>) {
   return (
     <html className={inter.className} lang="en">
+      <head>
+        <meta property="og:title" content="Jaewoong Blog" />
+        <meta property="og:type" content="Blog" />
+        <meta property="og:url" content="https://dev-blog-green.vercel.app/" />
+        <meta
+          property="og:image"
+          content="https://dev-blog-green.vercel.app/images/jjw.png"
+        />
+      </head>
       <body className="flex flex-col w-full h-full">
         <div className="fixed top-0  z-50 bg-blue-100 w-full  ">
           <Header />
