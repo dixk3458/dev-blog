@@ -1,5 +1,11 @@
 import ContactForm from '@/components/ContactForm';
+import { Metadata } from 'next';
 import { ImSection } from 'react-icons/im';
+
+export const metadata: Metadata = {
+  title: 'Contact Jaewoong',
+  description: '프론트엔드 개발자 정재웅 Contact Page',
+};
 
 export default function ContactPage() {
   return (
