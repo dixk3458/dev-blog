@@ -1,7 +1,7 @@
 import AdjacentPost from '@/components/AdjacentPost';
 import PostContent from '@/components/PostContent';
 import TagSpan from '@/components/TagSpan';
-import { getPostData } from '@/service/posts';
+import { getBookmarkedPosts, getPostData } from '@/service/posts';
 import { Metadata } from 'next';
 
 type Props = {

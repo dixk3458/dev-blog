@@ -24,7 +24,6 @@ export default function Header() {
         >
           Contact
         </Link>
-        <button className="ml-4">✨</button>
       </div>
     </header>
   );

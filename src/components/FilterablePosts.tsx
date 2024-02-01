@@ -25,6 +25,8 @@ export default function FilterablePosts({ posts, categories }: Props) {
 
   useEffect(() => {
     setIsLoading(true);
+
+    const currentObserver = observerRef.current; // Store the current value
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
@@ -37,7 +39,7 @@ export default function FilterablePosts({ posts, categories }: Props) {
               setVisiblePosts(prev => [...prev, ...nextData]);
               setIsLoading(false);
             } else {
-              // 더 이상 로드할 데이터가 없음을 표시
+              // No more data to load
               setHasMore(false);
               setIsLoading(false);
             }
@@ -48,17 +50,19 @@ export default function FilterablePosts({ posts, categories }: Props) {
         threshold: 0.5,
       }
     );
-    if (observerRef.current) {
-      observer.observe(observerRef.current);
+
+    if (currentObserver) {
+      observer.observe(currentObserver);
     }
+    setIsLoading(false);
 
     return () => {
-      // 컴포넌트 언마운트 시 Observer 해제
-      if (observerRef.current) {
-        observer.unobserve(observerRef.current);
+      // Use the stored value in the cleanup function
+      if (currentObserver) {
+        observer.unobserve(currentObserver);
       }
     };
-  }, [visiblePosts]);
+  }, [visiblePosts, hasMore, posts]);
 
   const filtered =
     selected === ALL && !text
@@ -73,6 +77,7 @@ export default function FilterablePosts({ posts, categories }: Props) {
 
   const handleClick = (selected: string) => {
     setSelected(selected);
+    setIsLoading(false);
   };
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
