@@ -285,7 +285,7 @@
     "date": "2024-01-30",
     "category": "JavaScript",
     "path": "javascript/hoisting",
-    "bookmarked": "true"
+    "bookmarked": true
   },
   {
     "title": "Javascript에서 클로저란?",
@@ -293,7 +293,7 @@
     "date": "2024-01-30",
     "category": "JavaScript",
     "path": "javascript/closure",
-    "bookmarked": "true"
+    "bookmarked": true
   },
   {
     "title": "선택 정렬",
@@ -301,7 +301,7 @@
     "date": "2024-01-31",
     "category": "Algorithm",
     "path": "algorithm/sort/selection-sort",
-    "bookmarked": "true"
+    "bookmarked": true
   },
   {
     "title": "버블 정렬",
@@ -309,7 +309,7 @@
     "date": "2024-01-31",
     "category": "Algorithm",
     "path": "algorithm/sort/bubble-sort",
-    "bookmarked": "true"
+    "bookmarked": true
   },
   {
     "title": "Special Sort(구글 인터뷰)",
@@ -317,7 +317,7 @@
     "date": "2024-01-31",
     "category": "Algorithm",
     "path": "algorithm/sort/special-sort",
-    "bookmarked": "true"
+    "bookmarked": true
   },
   {
     "title": "삽입 정렬",
@@ -325,6 +325,78 @@
     "date": "2024-01-31",
     "category": "Algorithm",
     "path": "algorithm/sort/insertion-sort",
-    "bookmarked": "true"
+    "bookmarked": true
+  },
+  {
+    "title": "LRU",
+    "description": "알고리즘 문제풀이 (Sort)",
+    "date": "2024-02-02",
+    "category": "Algorithm",
+    "path": "algorithm/sort/least-recently-used",
+    "bookmarked": true
+  },
+  {
+    "title": "장난꾸러기 재웅",
+    "description": "알고리즘 문제풀이 (Sort)",
+    "date": "2024-02-02",
+    "category": "Algorithm",
+    "path": "algorithm/sort/naughty-jaewoong",
+    "bookmarked": true
+  },
+  {
+    "title": "좌표정렬",
+    "description": "알고리즘 문제풀이 (Greedy)",
+    "date": "2024-02-02",
+    "category": "Algorithm",
+    "path": "algorithm/greedy/coordinate-alignment",
+    "bookmarked": false
+  },
+  {
+    "title": "회의실 배정",
+    "description": "알고리즘 문제풀이 (Greedy)",
+    "date": "2024-02-02",
+    "category": "Algorithm",
+    "path": "algorithm/greedy/allocation-of-conference-room",
+    "bookmarked": true
+  },
+  {
+    "title": "결혼식",
+    "description": "알고리즘 문제풀이 (Greedy)",
+    "date": "2024-02-04",
+    "category": "Algorithm",
+    "path": "algorithm/greedy/wedding",
+    "bookmarked": true
+  },
+  {
+    "title": "이진탐색",
+    "description": "알고리즘 문제풀이 (Search)",
+    "date": "2024-02-04",
+    "category": "Algorithm",
+    "path": "algorithm/search/binary-search",
+    "bookmarked": true
+  },
+  {
+    "title": "HTTP 메서드는 무엇인가?",
+    "description": "HTTP 메서드의 개념과 종류",
+    "date": "2023-06-29",
+    "category": "CS",
+    "path": "cs/http-method",
+    "bookmarked": true
+  },
+  {
+    "title": "Margin과 Padding은 차이가 뭘까?",
+    "description": "CSS의 margin과 padding의 차이점",
+    "date": "2023-07-01",
+    "category": "CSS",
+    "path": "css/margin-padding",
+    "bookmarked": true
+  },
+  {
+    "title": "5가지 Position 속성 정리",
+    "description": "position의 개념 및 차이점",
+    "date": "2023-07-01",
+    "category": "CSS",
+    "path": "css/position",
+    "bookmarked": true
   }
 ]
