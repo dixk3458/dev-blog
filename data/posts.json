@@ -256,6 +256,15 @@
     "bookmarked": true
   },
   {
+    "title": "React를 사용하는 이유는 무엇일까?",
+    "description": "React의 사용하는 이유",
+    "date": "2023-09-01",
+    "category": "React",
+    "path": "react/why-react",
+    "bookmarked": true
+  },
+
+  {
     "title": "객체 상태 관리",
     "description": "React의 객체상태를 관리하는 방법",
     "date": "2023-09-01",
@@ -376,11 +385,35 @@
     "bookmarked": true
   },
   {
+    "title": "뮤직비디오 (결정 알고리즘)",
+    "description": "알고리즘 문제풀이 (Decision)",
+    "date": "2024-02-05",
+    "category": "Algorithm",
+    "path": "algorithm/decision/music-video",
+    "bookmarked": true
+  },
+  {
+    "title": "마구간 정하기(결정 알고리즘)",
+    "description": "알고리즘 문제풀이 (Decision)",
+    "date": "2024-02-05",
+    "category": "Algorithm",
+    "path": "algorithm/decision/stable-arrangement",
+    "bookmarked": true
+  },
+  {
     "title": "HTTP 메서드는 무엇인가?",
     "description": "HTTP 메서드의 개념과 종류",
     "date": "2023-06-29",
     "category": "CS",
     "path": "cs/http-method",
+    "bookmarked": true
+  },
+  {
+    "title": "REST는 무엇인가?",
+    "description": "REST와 RESTful의 개념",
+    "date": "2023-06-29",
+    "category": "CS",
+    "path": "cs/rest.md",
     "bookmarked": true
   },
   {
@@ -397,6 +430,78 @@
     "date": "2023-07-01",
     "category": "CSS",
     "path": "css/position",
+    "bookmarked": true
+  },
+  {
+    "title": "this란 무엇인가?",
+    "description": "this 개념정리",
+    "date": "2023-07-02",
+    "category": "JavaScript",
+    "path": "javascript/this",
+    "bookmarked": true
+  },
+  {
+    "title": "Headless CMS란 무엇인가?",
+    "description": "Headless CMS 개념정리",
+    "date": "2024-02-03",
+    "category": "CS",
+    "path": "cs/headless-cms",
+    "bookmarked": false
+  },
+  {
+    "title": "Sanity는 무엇인가?",
+    "description": "Sanity 사용설명",
+    "date": "2024-02-03",
+    "category": "Library",
+    "path": "library/sanity",
+    "bookmarked": false
+  },
+  {
+    "title": "브라우저 저장소 종류 및 차이점",
+    "description": "Cookie, LocalStorage, SessionStorage의 개념 및 차이점",
+    "date": "2023-09-03",
+    "category": "CS",
+    "path": "cs/web-storage",
+    "bookmarked": true
+  },
+  {
+    "title": "재귀함수 (재귀함수)",
+    "description": "알고리즘 문제풀이 (Recursion)",
+    "date": "2024-02-06",
+    "category": "Algorithm",
+    "path": "algorithm/recursion/recursion-function",
+    "bookmarked": false
+  },
+  {
+    "title": "트리 (Tree)",
+    "description": "트리 개념 및 구현",
+    "date": "2024-02-06",
+    "category": "DataStructure",
+    "path": "data-structure/tree",
+    "bookmarked": false
+  },
+  {
+    "title": "프로세스와 쓰레드는 무엇인가요?",
+    "description": "Process 와 Thread의 개념 및 차이점",
+    "date": "2023-09-05",
+    "category": "CS",
+    "path": "cs/process-thread",
+    "bookmarked": true
+  },
+  {
+    "title": "JavaScript는 무엇인가요?",
+    "description": "JavaScript 언어에 대해",
+    "date": "2023-09-05",
+    "category": "JavaScript",
+    "path": "javascript/what-is-javascript",
+    "bookmarked": true
+  },
+  {
+    "title": "JavaScript 런타임 환경은 무엇일까?",
+    "description": "JavaScript 런타임 환경에 대해",
+    "date": "2023-09-05",
+    "category": "JavaScript",
+    "path": "javascript/javascript-runtime",
     "bookmarked": true
   }
 ]
