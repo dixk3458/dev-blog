@@ -503,5 +503,37 @@
     "category": "JavaScript",
     "path": "javascript/javascript-runtime",
     "bookmarked": true
+  },
+  {
+    "title": "어떻게 GROQ가 동작하나요?",
+    "description": "GROQ 간단 사용법",
+    "date": "2024-02-07",
+    "category": "Library",
+    "path": "library/groq",
+    "bookmarked": false
+  },
+  {
+    "title": "자바스크립트 실행 순서(콜스택)?",
+    "description": "싱글 쓰레드 언어인 자바스크립트의 비밀",
+    "date": "2024-02-08",
+    "category": "JavaScript",
+    "path": "javascript/callback",
+    "bookmarked": true
+  },
+  {
+    "title": "Promise 개념 및 실습",
+    "description": "비동기 코드를 더욱 깔끔하게 만들어주는 Promise",
+    "date": "2024-02-08",
+    "category": "JavaScript",
+    "path": "javascript/promise",
+    "bookmarked": true
+  },
+  {
+    "title": "이벤트 버블링",
+    "description": "이벤트 버블링 실습",
+    "date": "2024-02-14",
+    "category": "CS",
+    "path": "cs/event-bubbling",
+    "bookmarked": true
   }
 ]
