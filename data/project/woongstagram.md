@@ -1,5 +1,9 @@
 # Woongstagram
 
+- [Web Page](https://woongstagram.vercel.app/)
+- [Github](https://github.com/dixk3458/Nextjs-Woongstagram)
+- [개발 기록](https://www.notion.so/e9a6790edd03473abf5027a50ffde16e?pvs=4)
+
 ### Overview
 
 Next.js를 이용하여 만든 SNS입니다.
