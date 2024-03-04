@@ -24,9 +24,8 @@ export default function UserCard() {
           </a>
         </h2>
         <p className="mt-2 text-xs  text-gray-400">
-          저는 주변 사람들에게 도움을 주는 것에 큰 노력을 합니다. 사용자와
-          기억에 남는 상호작용하는 것, 복잡한 것을 풀어내간단하게 만드는 것을
-          좋아합니다. 현재 꿈을 코딩하고 있습니다.
+          저는 서비스를 제공하고 개선하는 과정에서 희열을 느낍니다. TTV 와 TTI를
+          고려한 부드러운 UX 제공을 지향합니다. 현재 꿈을 코딩하고 있습니다.
         </p>
         <nav>
           <ul className="flex gap-2 mt-2 ">
