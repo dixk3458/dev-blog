@@ -24,8 +24,11 @@ export default function UserCard() {
           </a>
         </h2>
         <p className="mt-2 text-xs  text-gray-400">
-          저는 서비스를 제공하고 개선하는 과정에서 희열을 느낍니다. TTV 와 TTI를
-          고려한 부드러운 UX 제공을 지향합니다. 현재 꿈을 코딩하고 있습니다.
+          저는 서비스를 제공하고 개선하는 과정에서 희열을 느낍니다.{' '}
+          <span className="font-bold text-gray-500">TTV</span> 와{' '}
+          <span className="font-bold text-gray-500">TTI</span>를 고려한
+          <span className="font-bold text-gray-500">부드러운 UX 제공</span>을
+          지향합니다. 현재 꿈을 코딩하고 있습니다.
         </p>
         <nav>
           <ul className="flex gap-2 mt-2 ">
