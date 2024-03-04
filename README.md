@@ -71,8 +71,9 @@ For building and running the application you need:
 ### 화면 구성📺
 
 <div style="display:grid; grid-template-columns: 1fr 1fr; grid-gap:12px">
-    <img src="./images/main.png" width="450px" height="300px" alt="Home"/>
-    <img src="./images/chat.png" width="450px" height="300px" alt="Comment"/>
+    <img src="./images/home.png" width="450px" height="300px" alt="Home"/>
+    <img src="./images/search.png" width="450px" height="300px" alt="Search"/>
+    <img src="./images/mail.png" width="450px" height="300px" alt="Mail"/>
 </div>
 
 <br>
