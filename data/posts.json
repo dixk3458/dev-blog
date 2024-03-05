@@ -232,8 +232,24 @@
     "bookmarked": true
   },
   {
+    "title": "ElementalGame",
+    "description": "웹 게임입니다.",
+    "date": "2023-05-06",
+    "category": "Project",
+    "path": "project/elemental-game",
+    "bookmarked": false
+  },
+  {
+    "title": "Woongstore",
+    "description": "인터넷 쇼핑몰입니다.",
+    "date": "2023-07-18",
+    "category": "Project",
+    "path": "project/woongstore",
+    "bookmarked": false
+  },
+  {
     "title": "Woongstagram",
-    "description": "SNS서비스 입니다.",
+    "description": "SNS서비스입니다.",
     "date": "2024-03-01",
     "category": "Project",
     "path": "project/woongstagram",
