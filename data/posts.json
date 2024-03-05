@@ -3,16 +3,40 @@
     "title": "같은 숫자는 싫어",
     "description": "자료구조 Stack을 활용한 문제풀이",
     "date": "2023-01-05",
-    "category": "algorithm",
+    "category": "Algorithm",
     "path": "algorithm/stack/hate-same-number",
     "bookmarked": false
+  },
+  {
+    "title": "기능 개발(Stack)",
+    "description": "자료구조 Stack을 활용한 문제풀이",
+    "date": "2023-01-05",
+    "category": "Algorithm",
+    "path": "algorithm/stack/functional-developement",
+    "bookmarked": true
+  },
+  {
+    "title": "기능 개발(Queue)",
+    "description": "자료구조 Queue 활용한 문제풀이",
+    "date": "2023-01-06",
+    "category": "Algorithm",
+    "path": "algorithm/queue/functional-developement",
+    "bookmarked": true
   },
   {
     "title": "자료구조 Stack",
     "description": "자료구조 Stack 개념정리",
     "date": "2023-01-05",
-    "category": "datastructure",
+    "category": "DataStructure",
     "path": "datastructure/stack",
+    "bookmarked": false
+  },
+  {
+    "title": "자료구조 Queue",
+    "description": "자료구조 Queue 개념정리",
+    "date": "2023-01-06",
+    "category": "DataStructure",
+    "path": "datastructure/queue",
     "bookmarked": false
   },
   {
