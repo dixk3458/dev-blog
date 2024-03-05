@@ -27,7 +27,7 @@ export default function TagSpan({
 
 function getTagStyle(size: TagSize): string {
   const baseStyle =
-    'bg-gray-50 px-2 text-indigo-700 font-semibold rounded-lg border-2 shadow-md cursor-pointer';
+    'bg-gray-50 px-2 text-indigo-700 font-semibold rounded-lg border-2 shadow-md cursor-pointer capitalize';
 
   switch (size) {
     case 'small':
