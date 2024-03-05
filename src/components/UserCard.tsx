@@ -4,7 +4,7 @@ import Avatar from './Avatar';
 
 const links = [
   {
-    href: 'https://www.notion.so/Frontend-Engineer-d484da4e05da443da11ede6879ca21ee?pvs=4',
+    href: 'https://distinct-boursin-9c6.notion.site/Frontend-Engineer-d484da4e05da443da11ede6879ca21ee?pvs=4',
     title: 'Resume',
   },
   {
@@ -19,7 +19,7 @@ export default function UserCard() {
       <Avatar size="medium" highlight={true} />
       <div>
         <h2 className="inline-block bg-sky-100 rounded-md px-1 font-bold">
-          <a href="https://www.notion.so/Frontend-Engineer-d484da4e05da443da11ede6879ca21ee?pvs=4">
+          <a href="https://distinct-boursin-9c6.notion.site/Frontend-Engineer-d484da4e05da443da11ede6879ca21ee?pvs=4">
             @정재웅
           </a>
         </h2>
