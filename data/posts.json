@@ -112,6 +112,22 @@
     "bookmarked": false
   },
   {
+    "title": "배열의 유용한 고차함수 Part1",
+    "description": "배열 고차함수 실습을 통한 사용법 숙지",
+    "date": "2022-06-16",
+    "category": "JavaScript",
+    "path": "javascript/higher-order-functions-of-an-array-1",
+    "bookmarked": false
+  },
+  {
+    "title": "배열의 유용한 고차함수 Part2",
+    "description": "배열 고차함수 실습을 통한 사용법 숙지",
+    "date": "2022-06-16",
+    "category": "JavaScript",
+    "path": "javascript/higher-order-functions-of-an-array-2",
+    "bookmarked": false
+  },
+  {
     "title": "async & await",
     "description": "비동기 코드를 동기적으로 작성하라.",
     "date": "2024-02-16",
