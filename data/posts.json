@@ -1,5 +1,29 @@
 [
   {
+    "title": "나누어 떨어지는 숫자 배열",
+    "description": "자료구조 Array을 활용한 문제풀이",
+    "date": "2023-01-04",
+    "category": "Algorithm",
+    "path": "algorithm/array/arrangement-of-divisible-numbers",
+    "bookmarked": false
+  },
+  {
+    "title": "자연수 뒤집어 배열로 만들기",
+    "description": "자료구조 Array을 활용한 문제풀이",
+    "date": "2023-01-04",
+    "category": "Algorithm",
+    "path": "algorithm/array/flipping-numbers-into-arrays",
+    "bookmarked": false
+  },
+  {
+    "title": "n^2 배열 자르기",
+    "description": "자료구조 Array을 활용한 문제풀이",
+    "date": "2023-01-04",
+    "category": "Algorithm",
+    "path": "algorithm/array/cutting-arrays",
+    "bookmarked": true
+  },
+  {
     "title": "같은 숫자는 싫어",
     "description": "자료구조 Stack을 활용한 문제풀이",
     "date": "2023-01-05",
