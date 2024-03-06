@@ -272,6 +272,22 @@
     "bookmarked": true
   },
   {
+    "title": "MySQL SELECT의 전반 기능",
+    "description": "Process 와 Thread의 개념 및 차이점",
+    "date": "2024-03-02",
+    "category": "Database",
+    "path": "database/select-general-function",
+    "bookmarked": false
+  },
+  {
+    "title": "MySQL 각종 연산자",
+    "description": "SELECT에서 활용되는 각종 연산자",
+    "date": "2024-03-02",
+    "category": "Database",
+    "path": "database/select-operator",
+    "bookmarked": false
+  },
+  {
     "title": "ElementalGame",
     "description": "웹 게임입니다.",
     "date": "2023-05-06",
