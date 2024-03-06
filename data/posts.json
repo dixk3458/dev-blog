@@ -24,6 +24,14 @@
     "bookmarked": true
   },
   {
+    "title": "자료구조 Array",
+    "description": "자료구조 Array 개념정리",
+    "date": "2023-01-04",
+    "category": "DataStructure",
+    "path": "datastructure/array",
+    "bookmarked": false
+  },
+  {
     "title": "자료구조 Stack",
     "description": "자료구조 Stack 개념정리",
     "date": "2023-01-05",
