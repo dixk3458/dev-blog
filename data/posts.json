@@ -2,7 +2,7 @@
   {
     "title": "나누어 떨어지는 숫자 배열",
     "description": "자료구조 Array을 활용한 문제풀이",
-    "date": "2023-01-04",
+    "date": "2024-01-04",
     "category": "Algorithm",
     "path": "algorithm/array/arrangement-of-divisible-numbers",
     "bookmarked": false
@@ -10,7 +10,7 @@
   {
     "title": "자연수 뒤집어 배열로 만들기",
     "description": "자료구조 Array을 활용한 문제풀이",
-    "date": "2023-01-04",
+    "date": "2024-01-04",
     "category": "Algorithm",
     "path": "algorithm/array/flipping-numbers-into-arrays",
     "bookmarked": false
@@ -18,7 +18,7 @@
   {
     "title": "n^2 배열 자르기",
     "description": "자료구조 Array을 활용한 문제풀이",
-    "date": "2023-01-04",
+    "date": "2024-01-04",
     "category": "Algorithm",
     "path": "algorithm/array/cutting-arrays",
     "bookmarked": true
@@ -26,7 +26,7 @@
   {
     "title": "같은 숫자는 싫어",
     "description": "자료구조 Stack을 활용한 문제풀이",
-    "date": "2023-01-05",
+    "date": "2024-01-05",
     "category": "Algorithm",
     "path": "algorithm/stack/hate-same-number",
     "bookmarked": false
@@ -34,7 +34,7 @@
   {
     "title": "기능 개발(Stack)",
     "description": "자료구조 Stack을 활용한 문제풀이",
-    "date": "2023-01-05",
+    "date": "2024-01-05",
     "category": "Algorithm",
     "path": "algorithm/stack/functional-developement",
     "bookmarked": true
@@ -42,7 +42,7 @@
   {
     "title": "기능 개발(Queue)",
     "description": "자료구조 Queue 활용한 문제풀이",
-    "date": "2023-01-06",
+    "date": "2024-01-06",
     "category": "Algorithm",
     "path": "algorithm/queue/functional-developement",
     "bookmarked": true
@@ -50,15 +50,23 @@
   {
     "title": "기능 개발(Queue)",
     "description": "자료구조 Queue 활용한 문제풀이",
-    "date": "2023-01-06",
+    "date": "2024-01-06",
     "category": "Algorithm",
     "path": "algorithm/queue/process",
     "bookmarked": true
   },
   {
+    "title": "베스트 앨범(Hash)",
+    "description": "자료구조 Hash 활용한 문제풀이",
+    "date": "2024-01-07",
+    "category": "Algorithm",
+    "path": "algorithm/hash/best-album",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
-    "date": "2023-01-04",
+    "date": "2024-01-04",
     "category": "DataStructure",
     "path": "datastructure/array",
     "bookmarked": false
@@ -66,7 +74,7 @@
   {
     "title": "자료구조 Stack",
     "description": "자료구조 Stack 개념정리",
-    "date": "2023-01-05",
+    "date": "2024-01-05",
     "category": "DataStructure",
     "path": "datastructure/stack",
     "bookmarked": false
@@ -74,9 +82,17 @@
   {
     "title": "자료구조 Queue",
     "description": "자료구조 Queue 개념정리",
-    "date": "2023-01-06",
+    "date": "2024-01-06",
     "category": "DataStructure",
     "path": "datastructure/queue",
+    "bookmarked": false
+  },
+  {
+    "title": "자료구조 Hash",
+    "description": "자료구조 Hash 개념정리",
+    "date": "2024-01-07",
+    "category": "DataStructure",
+    "path": "datastructure/hash",
     "bookmarked": false
   },
   {
