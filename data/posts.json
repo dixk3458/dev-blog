@@ -40,6 +40,14 @@
     "bookmarked": true
   },
   {
+    "title": "주식 가격(Stack)",
+    "description": "자료구조 Stack을 활용한 문제풀이",
+    "date": "2024-01-06",
+    "category": "Algorithm",
+    "path": "algorithm/stack/stock",
+    "bookmarked": true
+  },
+  {
     "title": "기능 개발(Queue)",
     "description": "자료구조 Queue 활용한 문제풀이",
     "date": "2024-01-06",
@@ -53,6 +61,14 @@
     "date": "2024-01-06",
     "category": "Algorithm",
     "path": "algorithm/queue/process",
+    "bookmarked": true
+  },
+  {
+    "title": "기능 개발(Queue)",
+    "description": "자료구조 Queue 활용한 문제풀이",
+    "date": "2024-01-07",
+    "category": "Algorithm",
+    "path": "algorithm/queue/truck-through-a-bridge",
     "bookmarked": true
   },
   {
