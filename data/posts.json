@@ -368,6 +368,22 @@
     "bookmarked": false
   },
   {
+    "title": "숫자 함수",
+    "description": "숫자를 다루는 함수들",
+    "date": "2024-03-09",
+    "category": "Database",
+    "path": "database/numeric-function",
+    "bookmarked": false
+  },
+  {
+    "title": "문자열 함수",
+    "description": "문자열을 다루는 함수들",
+    "date": "2024-03-09",
+    "category": "Database",
+    "path": "database/string-function",
+    "bookmarked": false
+  },
+  {
     "title": "ElementalGame",
     "description": "웹 게임입니다.",
     "date": "2023-05-06",
