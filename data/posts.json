@@ -112,6 +112,22 @@
     "bookmarked": false
   },
   {
+    "title": "자료구조 Graph",
+    "description": "자료구조 Graph 개념정리",
+    "date": "2024-01-08",
+    "category": "DataStructure",
+    "path": "datastructure/graph",
+    "bookmarked": false
+  },
+  {
+    "title": "자료구조 Tree",
+    "description": "자료구조 Tree 개념정리",
+    "date": "2024-01-08",
+    "category": "DataStructure",
+    "path": "datastructure/tree",
+    "bookmarked": false
+  },
+  {
     "title": "Margin과 Padding은 차이가 뭘까?",
     "description": "CSS의 margin과 padding의 차이점",
     "date": "2023-07-01",
