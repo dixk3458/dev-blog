@@ -296,6 +296,30 @@
     "bookmarked": false
   },
   {
+    "title": "useRef란 무엇인가? (1)",
+    "description": "useRef를 이용한 DOM요소 선택",
+    "date": "2023-05-12",
+    "category": "React",
+    "path": "react/what-is-useRef-1",
+    "bookmarked": false
+  },
+  {
+    "title": "배열 렌더링",
+    "description": "map()을 이용한 배열 렌더링",
+    "date": "2023-05-12",
+    "category": "React",
+    "path": "react/array-rendering",
+    "bookmarked": false
+  },
+  {
+    "title": "useRef란 무엇인가? (2)",
+    "description": "useRef를 이용한 컴포넌트 내부 변수관리",
+    "date": "2023-05-12",
+    "category": "React",
+    "path": "react/what-is-useRef-2",
+    "bookmarked": false
+  },
+  {
     "title": "브라우저 저장소 종류 및 차이점",
     "description": "Cookie, LocalStorage, SessionStorage의 개념 및 차이점",
     "date": "2023-09-03",
