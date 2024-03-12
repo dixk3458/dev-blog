@@ -80,6 +80,14 @@
     "bookmarked": true
   },
   {
+    "title": "배상 비용 최소화(Heap)",
+    "description": "자료구조 Heap 활용한 문제풀이",
+    "date": "2024-01-08",
+    "category": "Algorithm",
+    "path": "algorithm/heap/minimize-the-cost-of-compensation",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
