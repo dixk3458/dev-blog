@@ -325,7 +325,7 @@
     "date": "2023-05-10",
     "category": "React",
     "path": "react/use-using-useState",
-    "bookmarked": false
+    "bookmarked": true
   },
   {
     "title": "input 상태 관리",
@@ -341,7 +341,7 @@
     "date": "2023-05-12",
     "category": "React",
     "path": "react/what-is-useRef-1",
-    "bookmarked": false
+    "bookmarked": true
   },
   {
     "title": "배열 렌더링",
@@ -357,7 +357,15 @@
     "date": "2023-05-12",
     "category": "React",
     "path": "react/what-is-useRef-2",
-    "bookmarked": false
+    "bookmarked": true
+  },
+  {
+    "title": "useEffect란 무엇인가? (AppProducts실습)",
+    "description": "useEffect를 React 생애주기 관리",
+    "date": "2023-05-14",
+    "category": "React",
+    "path": "react/what-is-useEffect-AppProducts",
+    "bookmarked": true
   },
   {
     "title": "브라우저 저장소 종류 및 차이점",
