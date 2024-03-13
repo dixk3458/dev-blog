@@ -288,6 +288,14 @@
     "bookmarked": false
   },
   {
+    "title": "주석 처리 하는 법",
+    "description": "주석 작성방법 및 팁",
+    "date": "2024-03-12",
+    "category": "JavaScript",
+    "path": "javascript/comment",
+    "bookmarked": false
+  },
+  {
     "title": "모듈 작성 법",
     "description": "캡슐화를 도와주는 모듈작성법",
     "date": "2024-03-12",
