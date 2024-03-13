@@ -408,6 +408,7 @@
     "bookmarked": true
   },
   {
+<<<<<<< HEAD
     "title": "배열 상태관리(AppMentors실습)",
     "description": "불변성을 유지하며 배열 상태를 관리하자",
     "date": "2023-05-20",
@@ -416,6 +417,8 @@
     "bookmarked": true
   },
   {
+=======
+>>>>>>> 6dffa37
     "title": "브라우저 저장소 종류 및 차이점",
     "description": "Cookie, LocalStorage, SessionStorage의 개념 및 차이점",
     "date": "2023-09-03",
