@@ -280,6 +280,22 @@
     "bookmarked": true
   },
   {
+    "title": "에러 처리 및 핸들링?",
+    "description": "비정상적인 애플리케이션 중단을 막는 에러 처리",
+    "date": "2024-03-12",
+    "category": "JavaScript",
+    "path": "javascript/error-handling",
+    "bookmarked": false
+  },
+  {
+    "title": "모듈 작성 법",
+    "description": "캡슐화를 도와주는 모듈작성법",
+    "date": "2024-03-12",
+    "category": "JavaScript",
+    "path": "javascript/module",
+    "bookmarked": false
+  },
+  {
     "title": "React란 무엇인가?",
     "description": "React란 무엇이고 장점을 알아보자.",
     "date": "2023-05-10",
@@ -373,6 +389,30 @@
     "date": "2023-05-14",
     "category": "React",
     "path": "react/what-is-useEffect-AppProducts",
+    "bookmarked": true
+  },
+  {
+    "title": "객체 상태관리(AppXY실습)",
+    "description": "불변성을 유지하며 객체 상태를 관리하자",
+    "date": "2023-05-20",
+    "category": "React",
+    "path": "react/object-status-management(AppXY)",
+    "bookmarked": true
+  },
+  {
+    "title": "중첩 객체 상태관리(AppMentor실습)",
+    "description": "불변성을 유지하며 중첩 객체 상태를 관리하자",
+    "date": "2023-05-20",
+    "category": "React",
+    "path": "react/nested-object-status-management(AppMentor)",
+    "bookmarked": true
+  },
+  {
+    "title": "배열 상태관리(AppMentors실습)",
+    "description": "불변성을 유지하며 배열 상태를 관리하자",
+    "date": "2023-05-20",
+    "category": "React",
+    "path": "react/array-status-manage(AppMentors)",
     "bookmarked": true
   },
   {
