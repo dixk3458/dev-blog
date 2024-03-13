@@ -88,6 +88,14 @@
     "bookmarked": true
   },
   {
+    "title": "가장 많이 받은 선물(Heap) - 카카오 기출문제",
+    "description": "자료구조 Hash 활용한 문제풀이",
+    "date": "2024-01-09",
+    "category": "Algorithm",
+    "path": "algorithm/hash/the-most-gifted-gift",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
