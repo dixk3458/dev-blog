@@ -96,6 +96,14 @@
     "bookmarked": true
   },
   {
+    "title": "자동완성(Trie)",
+    "description": "자료구조 Trie 활용한 문제풀이",
+    "date": "2024-01-12",
+    "category": "Algorithm",
+    "path": "algorithm/trie/autometic-completion",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
@@ -149,6 +157,14 @@
     "date": "2024-01-09",
     "category": "DataStructure",
     "path": "datastructure/heap",
+    "bookmarked": false
+  },
+  {
+    "title": "자료구조 Trie",
+    "description": "자료구조 Trie 개념정리",
+    "date": "2024-01-012",
+    "category": "DataStructure",
+    "path": "datastructure/trie",
     "bookmarked": false
   },
   {
