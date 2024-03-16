@@ -104,6 +104,14 @@
     "bookmarked": true
   },
   {
+    "title": "붕대감기(Etc) - PCCP 기출문제",
+    "description": "PCCP 기출 문제풀이",
+    "date": "2024-01-14",
+    "category": "Algorithm",
+    "path": "algorithm/etc/bandage",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
