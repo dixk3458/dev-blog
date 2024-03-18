@@ -480,6 +480,22 @@
     "bookmarked": true
   },
   {
+    "title": "useReducer는 무엇인가?",
+    "description": "상태변경 로직을 분리시키는 useReducer()",
+    "date": "2023-05-26",
+    "category": "React",
+    "path": "react/what-is-useReducer",
+    "bookmarked": false
+  },
+  {
+    "title": "useImmer는 무엇인가?",
+    "description": "불변성 상태를 직관적으로 업데이트 해주는 useImmer()",
+    "date": "2023-05-26",
+    "category": "React",
+    "path": "react/what-is-useImmer",
+    "bookmarked": false
+  },
+  {
     "title": "브라우저 저장소 종류 및 차이점",
     "description": "Cookie, LocalStorage, SessionStorage의 개념 및 차이점",
     "date": "2023-09-03",
