@@ -194,10 +194,18 @@
   {
     "title": "자료구조 Trie",
     "description": "자료구조 Trie 개념정리",
-    "date": "2024-01-012",
+    "date": "2024-01-12",
     "category": "DataStructure",
     "path": "datastructure/trie",
     "bookmarked": false
+  },
+  {
+    "title": "자료구조 Binary Tree",
+    "description": "자료구조 Binary Tree 개념정리",
+    "date": "2024-01-20",
+    "category": "DataStructure",
+    "path": "datastructure/binary-tree",
+    "bookmarked": true
   },
   {
     "title": "Margin과 Padding은 차이가 뭘까?",
