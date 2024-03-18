@@ -112,6 +112,30 @@
     "bookmarked": true
   },
   {
+    "title": "버블 정렬",
+    "description": "Bubble Sort",
+    "date": "2024-01-16",
+    "category": "Algorithm",
+    "path": "algorithm/sort/bubble",
+    "bookmarked": false
+  },
+  {
+    "title": "선택 정렬",
+    "description": "Selection Sort",
+    "date": "2024-01-16",
+    "category": "Algorithm",
+    "path": "algorithm/sort/selection",
+    "bookmarked": false
+  },
+  {
+    "title": "퀵 정렬",
+    "description": "Quick Sort",
+    "date": "2024-01-16",
+    "category": "Algorithm",
+    "path": "algorithm/sort/quick",
+    "bookmarked": false
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
