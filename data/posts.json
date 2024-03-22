@@ -136,6 +136,118 @@
     "bookmarked": false
   },
   {
+    "title": "이진 탐색 트리",
+    "description": "Binary Search Tree의 개념",
+    "date": "2024-01-20",
+    "category": "Algorithm",
+    "path": "algorithm/search/binary-search-tree",
+    "bookmarked": true
+  },
+  {
+    "title": "이분탐색",
+    "description": "탐색 알고리즘을 활용한 문제풀이",
+    "date": "2024-01-20",
+    "category": "Algorithm",
+    "path": "algorithm/search/binary-search",
+    "bookmarked": true
+  },
+  {
+    "title": "입국심사(탐색 알고리즘)",
+    "description": "탐색 알고리즘을 활용한 문제풀이",
+    "date": "2024-01-20",
+    "category": "Algorithm",
+    "path": "algorithm/search/immigration",
+    "bookmarked": true
+  },
+  {
+    "title": "BFS 알고리즘 개념",
+    "description": "최단거리 경로 탐색에 유용한 BFS",
+    "date": "2024-01-22",
+    "category": "Algorithm",
+    "path": "algorithm/BFS/bfs",
+    "bookmarked": true
+  },
+  {
+    "title": "가장 먼 노드(BFS)",
+    "description": "BFS 알고리즘을 활용한 문제풀이",
+    "date": "2024-01-22",
+    "category": "Algorithm",
+    "path": "algorithm/BFS/far-node",
+    "bookmarked": true
+  },
+  {
+    "title": "DFS 알고리즘 개념",
+    "description": "깊이 우선 탐색(DFS)",
+    "date": "2024-01-22",
+    "category": "Algorithm",
+    "path": "algorithm/DFS/dfs",
+    "bookmarked": true
+  },
+  {
+    "title": "재귀함수 개념",
+    "description": "재귀함수 개념설명",
+    "date": "2024-02-10",
+    "category": "Algorithm",
+    "path": "algorithm/recursion/recursion",
+    "bookmarked": true
+  },
+  {
+    "title": "Permutation",
+    "description": "재귀함수를 이용한 Permutation",
+    "date": "2024-02-10",
+    "category": "Algorithm",
+    "path": "algorithm/recursion/permutation",
+    "bookmarked": true
+  },
+  {
+    "title": "Combination",
+    "description": "재귀함수를 이용한 Combination",
+    "date": "2024-02-10",
+    "category": "Algorithm",
+    "path": "algorithm/recursion/combination",
+    "bookmarked": true
+  },
+  {
+    "title": "두개를 뽑아 더하기(Combination)",
+    "description": "Combination을 이용한 문제풀이",
+    "date": "2024-02-10",
+    "category": "Algorithm",
+    "path": "algorithm/recursion/pick-two-and-add",
+    "bookmarked": true
+  },
+  {
+    "title": "Greedy 개념",
+    "description": "매순간 최선의 선택을 하는 Greedy 알고리즘",
+    "date": "2024-02-11",
+    "category": "Algorithm",
+    "path": "algorithm/greedy/greedy",
+    "bookmarked": true
+  },
+  {
+    "title": "가장 큰 수 만들기(Greedy)",
+    "description": "Greedy 알고리즘을 활용한 문제풀이",
+    "date": "2024-02-11",
+    "category": "Algorithm",
+    "path": "algorithm/greedy/make-big-number",
+    "bookmarked": true
+  },
+  {
+    "title": "다익스트라 알고리즘 개념",
+    "description": "가중치 그래프의 최단경로 탐색에 유용한 다익스트라 알고리즘",
+    "date": "2024-02-12",
+    "category": "Algorithm",
+    "path": "algorithm/dijkstra/dijkstra",
+    "bookmarked": true
+  },
+  {
+    "title": "배달(Dijkstra)",
+    "description": "Dijkstra 알고리즘을 활용한 문제풀이",
+    "date": "2024-02-12",
+    "category": "Algorithm",
+    "path": "algorithm/dijkstra/delivery",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
