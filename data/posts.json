@@ -288,6 +288,30 @@
     "bookmarked": false
   },
   {
+    "title": "게임 맵 최단거리(BFS)",
+    "description": "BFS 알고리즘을 활용한 문제풀이",
+    "date": "2024-03-28",
+    "category": "Algorithm",
+    "path": "algorithm/BFS/game-map",
+    "bookmarked": true
+  },
+  {
+    "title": "타겟 넘버(DFS)",
+    "description": "DFS 알고리즘을 활용한 문제풀이",
+    "date": "2024-03-29",
+    "category": "Algorithm",
+    "path": "algorithm/DFS/target-number",
+    "bookmarked": true
+  },
+  {
+    "title": "모의고사(완전탐색)",
+    "description": "완전탐색 알고리즘을 활용한 문제풀이",
+    "date": "2024-03-29",
+    "category": "Algorithm",
+    "path": "algorithm/search/text",
+    "bookmarked": true
+  },
+  {
     "title": "자료구조 Array",
     "description": "자료구조 Array 개념정리",
     "date": "2024-01-04",
