@@ -728,6 +728,22 @@
     "bookmarked": true
   },
   {
+    "title": "bcrypt는 무엇인가?",
+    "description": "bcrypt의 개념",
+    "date": "2024-03-29",
+    "category": "CS",
+    "path": "cs/bcrypt",
+    "bookmarked": false
+  },
+  {
+    "title": "JWT는 무엇인가?",
+    "description": "JWT의 개념",
+    "date": "2024-03-29",
+    "category": "CS",
+    "path": "cs/jwt",
+    "bookmarked": false
+  },
+  {
     "title": "MySQL SELECT의 전반 기능",
     "description": "Process 와 Thread의 개념 및 차이점",
     "date": "2024-03-02",
